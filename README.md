@@ -1,7 +1,11 @@
 # geogroup
-matchmaking for matchmakers 
+WIP
 
-Gotchas:
-npm ENOSPC: 
-execute `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`
-(https://stackoverflow.com/a/32600959)
+# Running the development build:
+ - Install docker and docker-compose on your system
+ - Install the expo app on your mobile phone
+ - In the base directory run `docker-compose up`
+ - Visit http://localhost:19002 or wait for the QR code in the terminal
+ - Scan the QR code in the expo app
+
+
